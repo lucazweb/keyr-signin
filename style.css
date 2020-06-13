@@ -172,4 +172,64 @@ body {
   animation-fill-mode: forwards;
 }
 
+.row.row--custom-margin-top {
+  margin-top: 200px;
+}
+
+.signin-options-box .signin-options-box__p {
+  color: #999999;
+  text-align: center;
+  margin: 0;
+}
+.signin-options-box .signin-options-box__p:first-child {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  text-decoration: underline;
+}
+.signin-options-box .signin-options-box__p:first-child a {
+  color: #999999;
+}
+.signin-options-box .signin-options-box__p:first-child a span {
+  color: #419ee0;
+  text-decoration: underline;
+}
+.signin-options-box .signin-options-box__p.signin-options-box__p--text-small {
+  font-size: 11px;
+}
+.signin-options-box .signin-options-box__p.signin-options-box__p--text-small a {
+  color: #419ee0;
+}
+
+.signin-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+}
+.signin-footer .signin-footer__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 30px;
+  background: #666;
+  color: white;
+  font-weight: bold;
+  font-size: "Myriad Pro Bold";
+}
+.signin-footer .signin-footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 90%;
+  height: 30px;
+}
+.signin-footer .signin-footer__content em {
+  font-style: italic;
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+}
+
 /*# sourceMappingURL=style.css.map */
