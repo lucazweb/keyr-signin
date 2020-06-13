@@ -11,14 +11,20 @@
     <title>Keyrus signin</title>
   </head>
   <body>
-    <div class="container container--overflow">
-      <div class="row justify-content-center">
-        <div class="col-10">
-          <div class="alert alert-danger" role="alert">
-            A simple danger alert—check it out!
-          </div>
-          <div class="alert alert-success" role="alert">
-            A simple success alert—check it out!
+    <div class="container-fluid container-fluid--position-absolute container-fluid--padding-top-medium">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10">
+            <div class="col-12">
+              <div class="alert alert--background-icon alert-error" role="alert">
+                <i class="alert__icon alert__icon--error"></i>
+                <span class="alert-error__span">Digite seu email e senha</span>  
+              </div>
+              <div class="alert alert--background-icon alert-valid" role="alert">
+                <i class="alert__icon alert__icon--valid"></i>
+                <span class="alert-valid__span">Você foi logado com sucesso</span>  
+              </div>
+            </div>
           </div>
         </div>
       </div>

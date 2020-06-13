@@ -107,4 +107,51 @@ body {
   /* transform: rotate(-2.5deg); */
 }
 
+.container-fluid.container-fluid--position-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container-fluid.container-fluid--padding-top-medium {
+  padding-top: 32px;
+}
+
+.alert.alert--background-icon {
+  font-family: "Myriad Pro Bold";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+.alert .alert__icon {
+  display: block;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.alert .alert__icon.alert__icon--error {
+  background-image: url("./assets/x_icon.png");
+  width: 13px;
+  height: 13px;
+}
+.alert .alert__icon.alert__icon--valid {
+  width: 15px;
+  height: 15px;
+  background-image: url("./assets/check_icon.png");
+}
+.alert.alert-error {
+  background-color: #ef7573;
+}
+.alert.alert-error .alert-error__span {
+  text-shadow: #ccc 0.5px 0.5px 0, 0.5px 0.5px 0.5px rgba(206, 89, 55, 0);
+  color: #A83A3A;
+}
+.alert.alert-valid {
+  background-color: #5add98;
+}
+.alert.alert-valid .alert-valid__span {
+  text-shadow: #ccc 0.5px 0.5px 0, 0.5px 0.5px 0.5px rgba(206, 89, 55, 0);
+  color: #299a5f;
+}
+
 /*# sourceMappingURL=style.css.map */
