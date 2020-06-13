@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Myriad Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Myriad Pro Regular"), url("./assets/fonts/MYRIADPRO-REGULAR.woff") format("woff");
+}
+@font-face {
+  font-family: "Myriad Pro Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Myriad Pro Semibold"), url(".assets/fonts/MYRIADPRO-SEMIBOLD.woff") format("woff");
+}
+@font-face {
+  font-family: "Myriad Pro Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Myriad Pro Bold"), url("MYRIADPRO-BOLD.woff") format("woff");
+}
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Myriad Pro Bold";
+  font-size: 16px;
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 12px;
+  color: #999999;
+}
+
+body {
+  background-image: url("./assets/bg_squares.jpg");
+}
+
+.form.form--fluid {
+  width: 100%;
+}
+
+.form-control.form-control--icon {
+  padding-right: calc(1.5em + 0.75rem);
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+  background-repeat: no-repeat;
+  background-color: #f7f6f6;
+  font-size: 14px;
+  -webkit-box-shadow: inset 0px 1px 2px 0px #ccc;
+  -moz-box-shadow: inset 0px 1px 2px 0px #ccc;
+  box-shadow: inset 0px 1px 2px 0px #ccc;
+  vertical-align: baseline;
+  border: none;
+  font-family: "Myriad Pro Regular";
+}
+.form-control.form-control--icon::placeholder {
+  color: #666666;
+}
+.form-control.form-control--email {
+  background-image: url("./assets/person_icon.svg");
+}
+.form-control.form-control--password {
+  background-image: url("./assets/lock_icon.svg");
+}
+
+.btn.btn--btn-signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: #3399cc;
+  color: white;
+  text-shadow: #333;
+  font-family: "Myriad Pro Bold";
+}
+
+.signin-box {
+  height: 250px;
+  background-image: url("./assets/texture.png");
+  box-shadow: 0 0 3px #f3f3f3;
+  border-radius: 10px;
+  border: 1px solid #c9c9c9;
+  padding: 24px;
+  position: relative;
+}
+.signin-box:before, .signin-box:after {
+  content: "";
+  height: 250px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.signin-box:before {
+  background: #fafafa;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  left: 0px;
+  top: 8px;
+  border: 1px solid #c9c9c9;
+  /* transform: rotate(-2.5deg); */
+}
+.signin-box:after {
+  background: #f6f6f6;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  left: 0;
+  top: 3px;
+  border: 1px solid #c9c9c9;
+  /* transform: rotate(-2.5deg); */
+}
+
+/*# sourceMappingURL=style.css.map */
