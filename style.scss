@@ -80,8 +80,13 @@ body {
     height: 40px;
     background-color: #3399cc;
     color: white;
-    text-shadow: #333;
-    font-family: 'Myriad Pro Bold';
+    text-shadow: 0px 1px 1px #333;
+    box-shadow: 0px 1px 1px #333;
+    font-family: 'Myriad Pro Regular';
+    font-weight: bold;
+    -webkit-box-shadow: inset 0px 1px 2px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow:    inset 0px 1px 2px 0px rgba(255, 255, 255, 0.75);
+    box-shadow:         inset 0px 1px 2px 0px rgba(255, 255, 255, 0.75);    
   }
 }
 
@@ -240,6 +245,7 @@ body {
     width: 35px;
     height: 30px;
     background: #666;
+    box-shadow: 0px 1px 2px #ccc;
     color: white;
     font-weight: bold;
     font-size: 'Myriad Pro Bold';
@@ -249,6 +255,7 @@ body {
     align-items: center;
     justify-content: center;
     background: white;
+    box-shadow:0px 1px 2px #ccc;
     width: 90%;
     height: 30px;
     em {
