@@ -16,11 +16,11 @@
         <div class="row justify-content-center">
           <div class="col-12 col-md-10">
             <div class="col-12">
-              <div class="alert alert--background-icon alert-error" role="alert">
+              <div id="alertError" class="alert alert--background-icon alert-error" role="alert">
                 <i class="alert__icon alert__icon--error"></i>
                 <span class="alert-error__span">Digite seu email e senha</span>  
               </div>
-              <div class="alert alert--background-icon alert-valid" role="alert">
+              <div id="alertValid" class="alert alert--background-icon alert-valid" role="alert">
                 <i class="alert__icon alert__icon--valid"></i>
                 <span class="alert-valid__span">Você foi logado com sucesso</span>  
               </div>
@@ -35,7 +35,7 @@
         style="height: 100vh;"
       >
         <div class="col-md-5 col-11 signin-box">
-          <form class="form form--fluid">
+          <form onsubmit="handleSubmit(event)" class="form form--fluid">
             <div class="row justify-content-center">
               <div class="col-12">
                 <h1>Entrar na minha conta</h1>
@@ -44,8 +44,9 @@
                 <div class="form-group">
                   <input
                     type="email"
+                    name="email"
                     class="form-control form-control--icon form-control--email"
-                    id="exampleInputEmail1"
+                    id="inputEmail"
                     aria-describedby="emailHelp"
                     placeholder="Email"
                   />
@@ -55,8 +56,9 @@
                 <div class="form-group">
                   <input
                     type="password"
+                    name="password"
                     class="form-control form-control--icon form-control--password"
-                    id="exampleInputPassword1"
+                    id="inputPassword"
                     placeholder="Senha"
                   />
                 </div>
@@ -73,5 +75,6 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="js/signin.js"></script>
   </body>
 </html>

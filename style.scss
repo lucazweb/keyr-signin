@@ -139,6 +139,7 @@ body {
     justify-content: space-between;
     align-items: center;
     font-size: 13px;
+    display: none;
   }
 
   .alert__icon{
@@ -174,4 +175,22 @@ body {
       color: #299a5f; 
     }    
   }
+}
+
+@keyframes remove{
+  from {
+    opacity: 1;
+    display: flex;
+  }
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.remove-element-animation {
+  animation-name: remove;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
