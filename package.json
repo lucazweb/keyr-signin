@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"nodemon --watch ./ server\"  \"open http://localhost:3000\"",
+    "start": "gulp serve",
     "build": "gulp"
   },
   "repository": {
@@ -23,12 +23,12 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
+    "browser-sync": "^2.26.7",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-html-replace": "^1.6.2",
-    "nodemon": "^2.0.4"
+    "gulp-sass": "^4.1.0"
   }
 }
