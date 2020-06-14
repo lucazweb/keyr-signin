@@ -1,0 +1,15 @@
+
+# Sign-in
+
+### Instalação ⚡️
+Execute os seguintes comandos:
+```
+$ git clone https://www.github.com/lucazweb/keyrus-signin
+```
+Acesse a pasta do projeto, e na raiz, execute os comandos `npm install` ou `yarn install` para instalar:
+
+### Executando o projeto
+Na raiz do projeto, executar `npm start` ou `yarn start`:
+
+### Gerando build da aplicação
+Na raiz do projeto, após instalar o projeto, executar `npm run build` ou `yarn build`
