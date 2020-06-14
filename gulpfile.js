@@ -7,8 +7,6 @@ const del = require('del')
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass');
 
-task('test', () => console.log('test'));
-
 task('css-browsersync', function() {
   return src(["*.scss"])
       .pipe(sass().on('error', function(err) {
