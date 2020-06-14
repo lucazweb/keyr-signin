@@ -4,7 +4,7 @@
 ### Instalação ⚡️
 Execute os seguintes comandos:
 ```
-$ git clone https://www.github.com/lucazweb/keyrus-signin
+$ git clone https://www.https://github.com/lucazweb/keyr-signin
 ```
 Acesse a pasta do projeto, e na raiz, execute os comandos `npm install` ou `yarn install` para instalar:
 
